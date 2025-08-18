@@ -581,7 +581,7 @@
       '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'
     ];
     const baseURL = 'https://openrouter.ai/api/v1/chat/completions';
-    const siteURL = location.href;
+    const siteURL = encodeURIComponent('https://roboshen.netlify.app');
     const siteName = 'ROBOSHEN';
 
     const chatbox = document.getElementById('chatbox');
